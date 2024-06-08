@@ -1,0 +1,131 @@
+
+body{
+    background-image: url(img/backgroud.jpg);
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.conteiner{
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 2%;
+    width: 80%;
+    height: 80%;
+    padding-top: 15px;
+}
+
+.descricao{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa{
+    max-width: 150px;
+    max-height: 150px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.resumo{
+    width: 65%;
+    height: 100%;
+    padding-left: 20px;
+}
+h1{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.especificacoes{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 95%;
+    height: 80%;
+}
+
+td{
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 0.5px rgb(161, 158, 158);
+}
+
+.links{
+    width: 100%;
+    height: 15%;
+}
+
+.final{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#espec{
+    background-color: rgb(255, 255, 255);
+}
+
+.botao {
+    width: 90%;
+    font-size: 15pt;
+    display: inline-block;
+    background-color: rgb(44, 117, 228);
+    color: #fff;
+    padding: 5px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 15px black;
+}
+
+.botao p {
+    margin: 0;
+}
+
+.link{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgb(44, 117, 228);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(44, 117, 228);
+}

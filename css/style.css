@@ -1,0 +1,387 @@
+@font-face {
+    font-family: "ARLEDBD";
+    src: url("/font/ARLRDBD.TTF");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #cbcbc9ff;
+}
+
+header {
+    background-color: #1f1f1fff;
+    top: 0;
+    width: 100%;
+    height: 380px;
+    transition: 0.3s ease;
+}
+
+header.menor {
+    background-color: #1f1f1fff;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    transition: 0.3s ease;
+}
+
+.cab_topo{
+    width: 100%;
+    height: 84%;
+    display: flex;
+}
+
+.cab_topo_menor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.logo_cab {
+    width: 33.3%;
+    height: 100%;
+}
+
+.logo_cab a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_cab img {
+    width: 80%;
+    height: 80%;
+}
+
+.logo_cab_menor {
+    width: 25%;
+    height: 100%;
+
+}
+
+.logo_cab_menor a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_cab_menor img {
+    width: 70%;
+    height: 60%;
+}
+
+.foto_cab {
+    width: 33.4%;
+    height: 100%;
+}
+
+.foto_cabecalho {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.foto_cabecalho img {
+    width: 40%;
+    padding: 4%;
+}
+
+.nome_cabecalho {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.foto_cab_menor {
+    width: 50%;
+    height: 100%;
+}
+
+.contatos_cab {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos_cabecalho {
+    width: 80%;
+    height: 65%;
+}
+
+.contatos_cabecalho_menor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.link_contato_logo {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contatos_cabecalho_menor .link_contato_logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_link {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos_cabecalho_menor .logo_link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_logo_link {
+    width: 40%;
+}
+
+.text_link {
+    font-size: x-large;
+    background-color: #1f1f1fff;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.text_link_menor {
+    width: 0;
+    height: 0;
+}
+
+.fechamento_teg_link {
+    font-size: 1.5vw;
+    font-family: "ARLEDBD";
+    color: #7a7d7eff;
+}
+
+.tag_link {
+    font-size: 1.5vw;
+    font-family: "ARLEDBD";
+    color: #3e7cc5ff;
+}
+
+.contatos_cab_menor {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_cabecalho {
+    width: 100%;
+    height: 16%;
+    display: flex;
+}
+
+.menu_cabecalho_menor {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    transform: translate(50%, -60px);
+}
+
+.botao_menu {
+    font-size: x-large;
+    background-color: #1f1f1fff;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.espaço_menu {
+    font-size: x-large;
+    background-color: #1f1f1fff;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.fechamento_teg {
+    font-size: 3vw;
+    font-family: "ARLEDBD";
+    color: #7a7d7eff;
+}
+
+.menu_cabecalho_menor .fechamento_teg {
+    font-size: 1.5vw;
+    font-family: "ARLEDBD";
+    color: #7a7d7eff;
+}
+
+.tag {
+    font-size: 3vw;
+    font-family: "ARLEDBD";
+    color: #3e7cc5ff;
+}
+
+.menu_cabecalho_menor .tag {
+    font-size: 1.5vw;
+    font-family: "ARLEDBD";
+    color: #3e7cc5ff;
+}
+
+.botao_menu:hover {
+    background-color: aquamarine;
+}
+
+.conteudo {
+    width: 100%;
+    height: 600px;
+    background-color: #cbcbc9ff;
+}
+
+.sobre {
+    width: 100%;
+    height: 100%;
+}
+
+.titulo_sobre {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.titulo_sobre h1 {
+    font-size: 4vw;
+    font-family: 'ARLEDBD';
+    color: #1f1f1fff;
+}
+
+.conteudo_sobre {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.texto_sobre {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.texto_sobre p {
+    text-align: center;
+    font-family: 'ARLEDBD';
+    font-size: 2vw;
+    color: #1f1f1fff;
+    padding: 10px;
+}
+
+.titulo_projetos {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_projetos h1 {
+    font-size: 4vw;
+    font-family: 'ARLEDBD';
+    color: #1f1f1fff;
+}
+
+.projetos {
+    background-color: #cbcbc9ff;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos div {
+    width: 80%;
+    height: 100%;
+}
+iframe {
+    height: 40%; 
+    width: 100%;
+}
+
+footer {
+    background-color: #1f1f1fff;
+    width: 100%;
+    height: 200px;
+    color: #7a7d7eff;
+}
+
+.divisoes_rodape {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_rodapé {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_rodapé p {
+    text-align: center;
+}
+
+.divisoes_rodape .link_contato_logo{
+    width: 10%;
+    height: 100%;
+
+}
+
+.divisoes_rodape .link_contato_logo .logo_link {
+    width: 60%;
+}
